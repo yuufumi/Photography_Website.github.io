@@ -31,8 +31,8 @@ const Navbar = () => {
             </Link>
             <ul style={{color: `${textColor}`}} className='hidden sm:flex'>
                 <Link href="/"  className='p-4'><li>Home</li></Link>
-                <Link href="/gallery"   className='p-4'><li>Gallery</li></Link>
-                <Link href="/portfolio" className='p-4'><li>Work</li></Link>
+                <Link href="/#gallery"   className='p-4'><li>Gallery</li></Link>
+                <Link href="/work" className='p-4'><li>Work</li></Link>
                 <Link href="/contact"   className='p-4'><li>Contact</li></Link>
             </ul>
             {/* Mobile button */}
@@ -44,7 +44,7 @@ const Navbar = () => {
                 <ul>
                     <Link href="/"><li className='p-4 text-4xl hover:text-gray-500'>Home</li></Link>
                     <Link href="/#gallery"><li className='p-4 text-4xl hover:text-gray-500'>Gallery</li></Link>
-                    <Link href="/portfolio"><li className='p-4 text-4xl hover:text-gray-500'>Work</li></Link>
+                    <Link href="/work"><li className='p-4 text-4xl hover:text-gray-500'>Work</li></Link>
                     <Link href="/contact"><li className='p-4 text-4xl hover:text-gray-500'>Contact</li></Link>
                 </ul>
             </div>

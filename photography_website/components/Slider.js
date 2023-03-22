@@ -18,7 +18,7 @@ const Slider = ({slides}) => {
     return null;
   }
   return (
-    <div id="gallery" className='max-w-[1440px] mx-auto'>
+    <div id="gallery" className='max-w-[1240px] mx-h-[600px] mx-auto'>
       <h1 className='text-2xl font-bold text-center p-4'>Gallery</h1>
       <div>
       <div className='relative flex justify-center p-4'>
